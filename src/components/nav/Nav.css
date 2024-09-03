@@ -1,0 +1,52 @@
+:root {
+  --color1: #1db954;
+  --color2: #212121;
+  --color3: #121212;
+  --color4: #535353;
+  --color5: #b3b3b3;
+  --white: #fff;
+  --black: #000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: var(--color1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: var(--white);
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0%;
+  width: 0%;
+  height: 2px;
+  background: var(--white);
+  transition: 0.5s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
