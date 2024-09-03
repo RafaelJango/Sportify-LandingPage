@@ -1,0 +1,27 @@
+:root {
+  --color1: #1db954;
+  --color2: #212121;
+  --color3: #121212;
+  --color4: #535353;
+  --color5: #b3b3b3;
+  --white: #fff;
+  --black: #000;
+}
+
+.footer {
+  background-color: var(--color2);
+  color: var(--color5);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;;
+}
+
+.footer p {
+  color: var(--color4);
+  font-size: 0.8rem;
+  transition: 0.3s;
+}
+

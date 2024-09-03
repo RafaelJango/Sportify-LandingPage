@@ -1,11 +1,13 @@
-import Nav from "./components/Nav/Nav";
-import "./Index.css";
+import Layout from "./Layout";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import "./styles/Global.css";
 
 function App() {
   return (
-    <>
-      <Nav />
-    </>
+    <Router>
+      <Layout />
+    </Router>
   );
 }
 

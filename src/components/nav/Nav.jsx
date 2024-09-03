@@ -1,14 +1,18 @@
 import "./Nav.css";
+import logo from "../../assets/logo.png";
 
 const Nav = () => {
   return (
     <header className="header">
-      <a href="/" className="logo">
-        Logo
-      </a>
+      <div className="logo-name">
+        <div>
+          <img src={logo} alt="Logo" id="logo-image" />
+        </div>
+        <h1>Sportify</h1>
+      </div>
 
       <nav className="navbar">
-        <a href="/Home">Home</a>
+        <a href="/">Home</a>
         <a href="/Produtos">Produtos</a>
         <a href="/Sobre">Sobre</a>
         <a href="/Contato">Contato</a>

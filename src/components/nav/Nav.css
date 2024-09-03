@@ -14,17 +14,29 @@
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: var(--color1);
+  background: var(--color3);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
 
-.logo {
+.logo-name {
   font-size: 32px;
   color: var(--white);
   font-weight: 700;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#logo-image {
+  width: 4rem;
+  height: 100%;
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .navbar a {
@@ -43,10 +55,17 @@
   width: 0%;
   width: 0%;
   height: 2px;
-  background: var(--white);
+  background: var(--color1);
   transition: 0.5s;
 }
 
 .navbar a:hover::before {
   width: 100%;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }

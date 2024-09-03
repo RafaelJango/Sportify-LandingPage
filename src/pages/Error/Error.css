@@ -1,0 +1,43 @@
+:root {
+  --color1: #1db954;
+  --color2: #212121;
+  --color3: #121212;
+  --color4: #535353;
+  --color5: #b3b3b3;
+  --white: #fff;
+  --black: #000;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color2);
+  flex-direction: column;
+}
+
+.error h1 {
+  font-size: 10rem;
+  color: var(--color1);
+}
+
+.error h2 {
+  font-size: 5rem;
+  color: var(--color5);
+}
+
+.ButtonError {
+  text-decoration: none;
+  background-color: var(--color1);
+  border-radius: 2rem;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  transition: 0.5s;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.ButtonError:hover {
+  background-color: var(--black);
+}
