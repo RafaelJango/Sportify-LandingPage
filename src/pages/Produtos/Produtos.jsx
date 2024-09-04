@@ -1,10 +1,7 @@
+import "./Produtos.css";
+
 const Produtos = () => {
-  return (
-    <>
-      <h1>Produtos</h1>
-      <p>Conheça nossos produtos</p>
-    </>
-  );
+  return <></>;
 };
 
 export default Produtos;
