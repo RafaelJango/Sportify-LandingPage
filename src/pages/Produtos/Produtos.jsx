@@ -1,5 +1,3 @@
-import "./Produtos.css";
-
 const Produtos = () => {
   return <></>;
 };
