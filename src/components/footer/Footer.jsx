@@ -3,7 +3,7 @@ import "../../styles/footer.css";
 const Footer = () => {
   return (
     <>
-      <footer className="Footer">
+      <footer>
         <p>Sportify© 2021 - Todos os direitos reservados</p>
       </footer>
     </>
