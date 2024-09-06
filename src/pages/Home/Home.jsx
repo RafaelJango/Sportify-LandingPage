@@ -15,9 +15,7 @@ const Home = () => {
             iniciante, aqui é o lugar certo para você!
           </p>
           <div className="home-purchase-button">
-            <a href="#">
-              Comprar Agora
-            </a>
+            <a href="#">Comprar Agora</a>
           </div>
         </div>
 
