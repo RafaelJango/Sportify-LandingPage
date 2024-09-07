@@ -1,4 +1,4 @@
-import "../../styles/nav.css";
+import "../../styles/Nav.css";
 import logo from "../../assets/imgs/logo.png";
 
 const Nav = () => {
