@@ -53,7 +53,7 @@
   color: var(--white);
 }
 
-.home-banner {
+.home-banner2 {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -63,7 +63,7 @@
   margin-bottom: 9.7rem;
 }
 
-.home-banner img {
+.home-banner2 img {
   width: 100%;
   height: fit-content;
   display: inline-block;
@@ -71,6 +71,6 @@
   transition: 0.5s;
 }
 
-.home-banner img:hover {
+.home-banner2 img:hover {
   transform: scale(1.05);
 }
