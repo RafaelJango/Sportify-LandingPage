@@ -1,5 +1,11 @@
+import "../../styles/Produtos.css";
+
 const Produtos = () => {
-  return <></>;
+  return (
+    <>
+        	
+    </>
+  );
 };
 
 export default Produtos;
